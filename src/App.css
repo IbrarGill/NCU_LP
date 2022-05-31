@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
+#top-bg {
+    background-image: url('../src/assets_landingPage/main_bg.png');
+    height: 120vh;  
+    width:100vw;  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#contractdetails{
+    background-image: url('./assets_landingPage/contractdg.svg');
+    height: 130vh;  
+    width:100%;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#checkactivitysec{
+    background-image: url('./assets_landingPage/checkactivity.png');  
+    background-repeat: no-repeat;
+    height: 100vh;  
+    width:100vw; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#bottombg{
+    background-image: url('./assets_landingPage/bottombg.png');  
+    height: 120vw;  
+    width:100vw; 
 }

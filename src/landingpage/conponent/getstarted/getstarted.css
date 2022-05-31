@@ -1,0 +1,31 @@
+.getstarted {
+    width: 523px;
+    height: 70px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 108%;
+    color: #022A7D;
+}
+
+.getstartedtext{
+
+width: 475px;
+height: 57px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 108%;
+color: #00001E;
+}
+
+.getstartedbtn {
+    box-sizing: border-box;
+    width: 147.6px;
+    height: 41px;
+    background: #1B6AE4;
+    border-radius: 6px;
+    border: none;
+}

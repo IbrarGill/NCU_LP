@@ -1,0 +1,15 @@
+.button1 {
+    border: none;
+    width: 147.6px;
+    height: 41px;
+    background: linear-gradient(183.61deg, #0000BB -14.99%, #000021 115.82%);
+    border-radius: 6px;
+}
+
+.button2 {
+    border: none;
+    width: 147.6px;
+    height: 41px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #BDB9B9 100%);
+    border-radius: 6px;
+}
