@@ -1,7 +1,7 @@
 .card1 {
     box-sizing: border-box;
-    width: 340.65px;
-    height: 290.65px;
+    /* width: 340.65px;
+    height: 290.65px; */
     background: linear-gradient(90.14deg, #03041A 0%, #022090 99.89%);
     border: 1px solid #062D6E;
     border-radius: 10px;
@@ -10,8 +10,8 @@
 
 .card2 {
     box-sizing: border-box;
-    width: 733px;
-    height: 290px;
+    /* width: 733px;
+    height: 290px; */
     background: linear-gradient(180.19deg, #030214 0.17%, #012198 128.18%);
     border: 1px solid #062E70;
     border-radius: 10px;
@@ -19,8 +19,8 @@
 
 .card3 {
     box-sizing: border-box;
-    width: 358px;
-    height: 610px;
+    /* width: 358px;
+    height: 610px; */
     background: linear-gradient(180deg, #030110 0%, #00219B 100%);
     border: 1px solid #062E70;
     border-radius: 10px;

@@ -7,7 +7,7 @@ function NavBar() {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-dark py-3">
-                <div className="container">
+                <div className="container-fluid">
 
                     <div className="navbar-brand d-flex flex-row justify-content-center mb-2">
 

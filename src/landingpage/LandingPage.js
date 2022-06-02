@@ -11,11 +11,11 @@ import Explore from './conponent/explore/explore';
 import DetailsCard from './conponent/details_cards/detailcard';
 function LandingPage() {
   return (
-    <div>
-      <section id="top-bg">
+    <div className='containen-fliud'>
+      <section id="top-bg" className='position-relative'>
         <NavBar />
         <HeaderContent />
-        <div id='iconslist'>  <IconList /> </div>
+        <div id='iconslist' className='position-absolute top-100 start-50 translate-middle'>  <IconList /> </div>
       </section>
       <section className='py-5'> <GetStarted /></section>
       <section id='contractdetails'> <ContractDetail /> </section>

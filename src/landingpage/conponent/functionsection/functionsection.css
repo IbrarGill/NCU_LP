@@ -1,4 +1,3 @@
-#footerbottombg{
+.functionbottombg{
     background-image: url('../../../assets_landingPage/bottombg.png');  
-    width: 100vw;  
 }

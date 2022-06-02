@@ -2,10 +2,14 @@ import React from 'react';
 import './contractdetails.css';
 import charts from '../../../assets_landingPage/chart.png';
 import laptop from '../../../assets_landingPage/laptop.png';
+import fireicon from '../../../assets_landingPage/fireicon.svg';
 
 function ContractDetail() {
     return (
-        <div id="contractdetails">
+        <div id="contractdetails" className='position-relative'>
+              <div class=" position-absolute top-0 start-0">
+                    <img src={fireicon} alt='fireicon'/>
+              </div>
             <br />   <br />
             <div className='row py-5 ' >
                 <div className='d-flex justify-content-center text-white text-center fw-bold fs-2 center '>
@@ -15,7 +19,8 @@ function ContractDetail() {
             </div>
 
             <div className='row'>
-                <div className='col-7'>
+                {/* outer main div */}
+                <div className='col-lg-7 col-md-12'>
                     <div className='row '>
                         <div className='col-1'></div>
                         <div className='col-5'>
@@ -57,7 +62,8 @@ function ContractDetail() {
                         <div className='col-1'></div>
                     </div>
                 </div>
-                <div className='col-3'>
+                {/* card  */}
+                <div className='col-lg-3 col-md-0'>
                     <div className='card3'>
                         <div className='text-white fw-bold py-3 px-3'>Browse through the Item Details for your collections.</div>
                         <div className='text-white  py-3 px-3'>Access your accounts activity and
