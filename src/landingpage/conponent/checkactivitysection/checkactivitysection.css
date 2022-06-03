@@ -1,0 +1,25 @@
+.grid-container-activity {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr;
+    padding-left: 10%;
+  }
+  .grid-activity-item {
+    background-color: transparent;
+  }
+
+
+  @media screen and (max-width: 991px) {
+    .grid-container-activity{
+    display: block;
+    justify-items: center;
+    }
+
+    .float-start{
+        float: none!important;
+
+        }
+       
+}
+
+

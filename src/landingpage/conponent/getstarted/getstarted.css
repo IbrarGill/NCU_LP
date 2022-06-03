@@ -9,4 +9,19 @@
     border: none;
 }
 
+.grid-container-getstarted {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-item-getstarted {
+    padding: 20px;
+    align-self: center;
+  }
 
+  @media screen and (max-width: 991px) {
+    .grid-container-getstarted {
+    display: block;
+    }
+
+   
+  }

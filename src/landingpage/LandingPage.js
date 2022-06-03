@@ -14,9 +14,12 @@ function LandingPage() {
     <div className='containen-fliud'>
       <section id="top-bg" className='position-relative'>
         <NavBar />
+        
         <HeaderContent />
-        <div id='iconslist' className='position-absolute top-100 start-50 translate-middle'>  <IconList /> </div>
+        <br/>    <br/>    <br/> <br/><br/><br/>
+        <div  className='position-absolute top-100 start-50 translate-middle'>  <IconList /> </div>
       </section>
+     
       <section className='py-5'> <GetStarted /></section>
       <section id='contractdetails'> <ContractDetail /> </section>
       

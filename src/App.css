@@ -1,5 +1,6 @@
 #top-bg {
     background-image: url('../src/assets_landingPage/main_bg.png');
+   
     /* width:100vw;   */
 }
 
@@ -12,10 +13,9 @@
 #checkactivitysec{
     background-image: url('./assets_landingPage/checkactivity.png');  
     background-repeat: no-repeat;
-
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
     #checkactivitysec {
       background: rgb(18,31,100);  
       background-color: rgb(18,31,100);

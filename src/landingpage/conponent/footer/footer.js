@@ -16,7 +16,7 @@ function FooterSection() {
           <div className='text-white  fs-6 text-center'>Get access to monthly development updates, exciting new<br /> projects, and much, much more.</div>
           <div className='d-flex flex-row py-5 justify-content-center'>
             <input className='inputfield rounded-3 w-90 px-4 border-0 shadow-0' placeholder='Enter e-mail address' required />
-            <button className='fw-bold text-center text-white rounded-3 border-0 bg-primary shadow-lg py-2 px-3 mx-4 '>Subscribe</button>
+            <button className='fw-bold text-center  text-white rounded-3 border-0 bg-primary shadow-lg py-2 px-3 mx-3 '>Subscribe</button>
           </div>
         </div>
         <div className='col-md-6'>

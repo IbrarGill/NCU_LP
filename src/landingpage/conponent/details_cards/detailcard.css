@@ -1,0 +1,22 @@
+
+
+.grid-container-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-item-card {
+  border: 1px solid #508CD3;
+  display:grid;
+}
+
+
+@media screen and (max-width: 991px) {
+    .grid-container-cards {
+    display: block;
+   
+    }
+   
+    .border-3{
+        border: none  !important;
+    }
+  }
