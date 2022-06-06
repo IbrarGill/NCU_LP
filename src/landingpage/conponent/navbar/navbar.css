@@ -9,6 +9,11 @@
     transition: .5s ease-in-out;
 }
 
+.text-white:hover{
+    color: blue !important;
+}
+
+
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,

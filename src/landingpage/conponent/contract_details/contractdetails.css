@@ -4,7 +4,11 @@
     border: 1px solid #062D6E;
     border-radius: 10px;
 }
-
+.card1:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    border: 1px solid blue;
+}
 
 .card2 {
     box-sizing: border-box;
@@ -12,14 +16,22 @@
     border: 1px solid #062E70;
     border-radius: 10px;
 }
-
+.card2:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    border: 1px solid blue;
+}
 .card3 {
     box-sizing: border-box;
     background: linear-gradient(180deg, #030110 0%, #00219B 100%);
     border: 1px solid #062E70;
     border-radius: 10px;
 }
-
+.card3:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    border: 1px solid blue;
+}
 .position-absolute.top-0.start-0 {
     margin-top: -121px;
 }

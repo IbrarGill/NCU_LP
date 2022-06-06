@@ -7,6 +7,11 @@
     border-radius: 10px
 }
 
+.imgeffect:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
 
 
 

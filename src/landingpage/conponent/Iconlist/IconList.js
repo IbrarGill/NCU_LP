@@ -12,11 +12,11 @@ function IconList() {
     <div id='iconslist'>
       <center>
         <div className='row'>
-          <img className='col-2  mx-auto my-2 py-auto' src={icon1} alt='icon1' width={30} height={60} />
-          <img className='col-2  mx-auto my-2 py-auto' src={icon2} alt='icon2' width={30} height={60} />
-          <img className='col-2  mx-auto my-2 py-auto' src={icon3} alt='icon3' width={30} height={60} />
-          <img className='col-2  mx-auto my-2 py-auto' src={icon4} alt='icon4' width={30} height={60} />
-          <img className='col-2  mx-auto my-2 py-auto' src={icon5} alt='icon5' width={30} height={60} />
+          <img className='col-2 imgeffect mx-auto my-2 py-auto' src={icon1} alt='icon1' width={30} height={60} />
+          <img className='col-2 imgeffect mx-auto my-2 py-auto' src={icon2} alt='icon2' width={30} height={60} />
+          <img className='col-2 imgeffect mx-auto my-2 py-auto' src={icon3} alt='icon3' width={30} height={60} />
+          <img className='col-2 imgeffect mx-auto my-2 py-auto' src={icon4} alt='icon4' width={30} height={60} />
+          <img className='col-2 imgeffect mx-auto my-2 py-auto' src={icon5} alt='icon5' width={30} height={60} />
         </div>
       </center>
 
