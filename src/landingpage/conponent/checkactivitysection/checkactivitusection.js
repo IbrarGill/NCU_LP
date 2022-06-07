@@ -5,7 +5,7 @@ function CheckActivitySection() {
     return (
         <div className='container py-5'>
             
-            <div className="grid-container-activity py-2">
+            <div className="grid-container-activity py-4">
            
                 <div className="grid-activity-item py-5">
                     <div className='text-white fw-bold fs-1'>Do you want to create smart contract without coding?</div>
